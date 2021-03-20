@@ -1,37 +1,103 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <title>Comp3412 mid-project</title>
+</head>
 
-You can use the [editor on GitHub](https://github.com/kaminggg/qqqqq/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<style>
+#name{
+    color:#008080;
+    margin-bottom: 0px;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+}
+.lay{
+    height:210px;
+    margin-top: 5px;
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-bottom:0;
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+}
 
-# Header 1
-## Header 2
-### Header 3
+p{
+    text-shadow: 1px 1px 15px #a64dff;
+}
 
-- Bulleted
-- List
+#an
+{
+    width:1000px;
+    height:1000px;
+    position:relative;
+    -webkit-animation-name:animation;
+    -webkit-animation-duration:5s;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-delay:0.5s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-direction:alternate;
+    -webkit-animation-play-state:running;
+}
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+@-webkit-keyframes animation
+{
+    0%   { top:0px;}
+    100%  { top:550px;}
 
-[Link](url) and ![Image](src)
-```
+}
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaminggg/qqqqq/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+</style>
+<div class="header" id="myHeader" style="height:100px;background-image: linear-gradient(to bottom right, blue , red);margin:0;">
+<h1 style="color:white;line-height:100px;font-size:50px;margin:0px;text-align:center;font-family:monospace;">
+    COMP3412 MID-Project
+</h1>
+    <a id="an" target="_blank" href="https://25.pokemon.com/en-us/"><img src="ball.png" style="border:0;"></a>
+</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<div style="text-align:center;color:black;height:90px;border-style:none none double none;border-width:medium;margin:0;">
+    <h1 id="name" >Lau Ka Ming</h1>
+    <h3 style="color:#0099cc;font-family:monospace;margin-bottom: 0px;padding-bottom: 0px;"> BSc(Hons) in Information security</h3>
+</div>
+<div class ="lay" >
+    <img  style="width:170px;float: left;height:170px;border:15px solid transparent;-webkit-border-image:url(bo.jpg) 25 25 round;" src="3683.jpg" alt="icon" >
+    <ul style ="margin-left:10px;line-height: 35px;font-size: 20px;font-weight:bold;margin-top:0px;float: left;">
+        <li style="" >Name: <span style="font-family:monospace;font-weight:normal;">Lau Ka Ming</span></li>
+        <li>Age: <span style="font-family:monospace;font-weight:normal;">22</span></li></li>
+        <li>Sex: <span style="font-family:monospace;font-weight:normal;">M</span></li></li>
+        <li>Hobbies: <span style="font-family:monospace;font-weight:normal;">Programming</span></li></li>
+        <li>Phone number: <span style="font-family:monospace;font-weight:normal;">94729574</span></li></li>
+        <li>Email: <span style="font-family:monospace;font-weight:normal;">20024258D@connect.polyu.hk</span></li></li>
+    </ul>
+</div>
+<div style="height:450px;text-align: left;padding-left: 30%;padding-right: 30%; font-family:monospace;border-style:hidden;
+background-image: linear-gradient(to bottom, white , #ccebff);">
+
+    <h2 style="margin-top:1%;font-weight:bold;text-decoration:underline;">Introduction:</h2>
+    <p style="line-height: 20px;">Hello everyone, my name is Lau Ka Ming and I am studying at Hong Kong Polytechnic University.
+    I am interest in programming and online games. So now I am study in information security.
+        My hobby is develop and learn different programming. I like to develop a lot of program for convenience
+        such as GPA calculator. I enjoy the feeling when I finish to develop a program. Moreover, I like to learn
+        different programming language. For example, I studied Arduino and i developed some easy project in summer
+        holiday. So, I like programming very much.
+        <br>On the personal side, I think I am a hardworking person. I am not a smart person, so I believe I need to
+        spend more time and practice for doing well.
+        <br>I believe that in the future ,  Information Technology  is essential .
+        More  apps  will be developed for business , Information Security will be more important for protecting
+        data to avoid cybercrime. So , I am interested to study this program for learning different method to
+        protect the data.
+    </p>
+
+
+</div>
+
+    <div id="footer" style="background-image: linear-gradient(to bottom right, #99ffd6 , #ffcc99);clear:both;text-align:center;margin:0px;border: none;padding:0px;font-family:monospace, serif;">
+        This is the end of my personal page~~&#128151;</div>
+
+
+
+
+</body>
+</html>
